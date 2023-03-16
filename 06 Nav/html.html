@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Nav bar with just hml</title>
-  <nav>
-    <a href="blue.com">Navbar</a>
-    <a href="blue.com">Home</a>
-    <a href="blue.com">Link</a>
-    <a href="blue.com">Dropdown</a>
-    <a href="blue.com"><select></select></a>
-    <button disabled>Disabled</button>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    <input type="text" placeholder="Search">
-    <button>Search</button>
-  </nav>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="main_container">
+  <nav class="nav1">
+    <a class="navbar" href="blue.com">Navbar</a>
+    <a class="home" href="blue.com">Home</a>
+    <a class="link" href="blue.com">Link</a>
+    <a class="dropdown" href="blue.com">Dropdown</a>
+   <select></select>
+    <button class="disabled" disabled>disabled</button>
+  </nav>
 
+  <nav class="nav2">
+    <input class="searchw" type="search" placeholder="Search">
+    <button class="btn_search">Search</button>
+  </nav>
+</div>
 </body>
 </html>
