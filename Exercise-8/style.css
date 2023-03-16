@@ -1,6 +1,8 @@
-body {
+body{
+  display: flex;
   width: 60em;
   margin: 0 auto;
+  opacity: 80%;
 }
 
 section {
@@ -14,6 +16,7 @@ section {
 
 #orange {
   background-color: #ffc788;
+  flex-grow: 1;
 }
 
 #yellow {
