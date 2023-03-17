@@ -1,0 +1,31 @@
+section{
+    width: 16rem;
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem 4rem;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem;
+    border: 0.09rem solid burlywood;
+    border-radius: 0.5rem;
+    outline: red;
+
+}
+div{
+    border: 1px solid #98d2ff;
+    text-align: center;
+    padding: 1.35rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+.div_large{
+    grid-area: 3/4/7/5;
+    background-color: lightcoral;
+}
+.div_borderless{
+    border: 0px solid white;
+    color: white;
+    background-color: dimgrey;
+}
+.math_signs{
+    background-color: cadetblue;
+}
