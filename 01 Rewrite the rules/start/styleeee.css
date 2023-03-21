@@ -1,14 +1,16 @@
 :root{
     --blck: #011212;
     --deep_orange: #ff8800;
+    --width: 100px;
+    --border-radius: 50px;
 }
 body {
     background-color: var(--blck);
 }
 
 .ball {
-    width: 100px;
-    height: 100px;
+    width: var(--width);
+    height: var(--width);
     background-color: var(--deep_orange);
-    border-radius: 50px;
+    border-radius: var(--border-radius);
 }
