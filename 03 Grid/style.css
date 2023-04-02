@@ -1,8 +1,8 @@
 section{
-    width: 16rem;
+    width: 50%;
     display: grid;
-    grid-template-columns: 4rem 4rem 4rem 4rem;
-    grid-template-rows: 4rem 4rem 4rem 4rem 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3rem 1fr 1fr 1fr 1fr;
     border: 0.09rem solid burlywood;
     border-radius: 0.5rem;
     outline: red;
@@ -21,8 +21,16 @@ div{
     grid-area: 3/4/7/5;
     background-color: lightcoral;
 }
+#div_0{
+    border-top-right-radius: 0.5rem;
+}
+#div_start{
+    border-top-left-radius: 0.5rem;
+}
+#div_start,#div_start2,#div_start3,#div_0{
+    border: 0px;
+}
 .div_borderless{
-    border: 0px solid white;
     color: white;
     background-color: dimgrey;
 }
